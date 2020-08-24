@@ -2,7 +2,7 @@
 
 ## Dataset preparation
 
-- Vist this [link](https://sites.google.com/view/yoga-82/home) and fill out the form to doanload the dataset
+- Vist this [link](https://sites.google.com/view/yoga-82/home) and fill out the form to download the dataset
 - Doanload images using urls provided in dataset.
 - Use train and test splits provided in the dataset.
 
