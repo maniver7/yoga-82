@@ -1,19 +1,19 @@
-Yoga-82 dataset evaluation keras implmentation
+# Yoga-82 dataset evaluation keras implmentation
 
-Dataset [link](https://sites.google.com/view/yoga-82/home)
+## Dataset preparation
 
-Paper [link](https://openaccess.thecvf.com/content_CVPRW_2020/html/w70/Verma_Yoga-82_A_New_Dataset_for_Fine-Grained_Classification_of_Human_Poses_CVPRW_2020_paper.html)
+- Vist this [link](https://sites.google.com/view/yoga-82/home) and fill out the form to doanload the dataset
+- Doanload images using urls provided in dataset.
+- Use train and test splits provided in the dataset.
 
-Check models.py for different existing models and modified hierarchical models.
+## Usage
 
-Train model: Run train_yoga.py
+Check `models.py` for different existing models and modified hierarchical models. And modify `train_yoga.py` accordingly.
 
-Please cite the following paper if you use the dataset or code.
+Train model
+`python train_yoga.py`
 
-`@inproceedings{verma2020yoga,
-  title={Yoga-82: A New Dataset for Fine-grained Classification of Human Poses},
-  author={Verma, Manisha and Kumawat, Sudhakar and Nakashima, Yuta and Raman, Shanmuganathan},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
-  year={2020}
-}
-`
+
+
+## Reference
+`Verma, M., Kumawat, S., Nakashima, Y., & Raman, S. (2020). Yoga-82: a new dataset for fine-grained classification of human poses. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (pp. 1038-1039).`
